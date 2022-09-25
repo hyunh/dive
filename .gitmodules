@@ -1,3 +1,6 @@
 [submodule "dive-domain"]
 	path = dive-domain
 	url = https://github.com/hyunh/dive-domain.git
+[submodule "dive-data"]
+	path = dive-data
+	url = https://github.com/hyunh/dive-data.git

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Dive"
 include(":app")
 include(":dive-domain")
+include(":dive-data")
