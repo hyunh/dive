@@ -46,6 +46,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":dive-domain"))
 
     implementation(libs.bundles.androidx)
     implementation(libs.bundles.kotlin)
