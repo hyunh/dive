@@ -46,6 +46,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":dive-data"))
     implementation(project(":dive-domain"))
 
     implementation(libs.bundles.androidx)
@@ -54,8 +55,6 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
     implementation(libs.material)
-    implementation(libs.okhttp.logging.interceptor)
-    implementation(libs.retrofit)
 
     testImplementation(libs.junit4)
     androidTestImplementation(libs.androidx.test.ext)

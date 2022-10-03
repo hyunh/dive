@@ -3,9 +3,11 @@ androidGradlePlugin = "7.3.0"
 androidxActivity = "1.5.1"
 androidxAppCompat = "1.5.1"
 androidxCore = "1.9.0"
+androidxDataStore = "1.0.0"
 androidxFragment = "1.5.2"
 androidxNavigation = "2.5.1"
 androidxPaging = "3.1.1"
+androidxRoom = "2.4.3"
 androidxTestEspresso = "3.4.0"
 androidxTestExt = "1.1.3"
 hilt = "2.44"
@@ -21,10 +23,13 @@ retrofit = "2.9.0"
 androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidxActivity" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
 androidx-core = { group = "androidx.core", name = "core", version.ref = "androidxCore" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDataStore" }
 androidx-fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragment" }
 androidx-navigation = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "androidxNavigation" }
 androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "androidxNavigation" }
 androidx-paging = { group = "androidx.paging", name = "paging-runtime", version.ref = "androidxPaging" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidxRoom" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidxRoom" }
 
 androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspresso" }
 androidx-test-ext = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "androidxTestExt" }
@@ -50,12 +55,10 @@ androidx = [
     "androidx-fragment",
     "androidx-navigation",
     "androidx-navigation-ui",
-    "androidx-paging"
 ]
 kotlin = [
     "kotlin-stdlib",
     "kotlinx-serialization",
-    "kotlinx-serialization-converter"
 ]
 
 [plugins]
